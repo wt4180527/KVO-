@@ -19,6 +19,8 @@
 		4921B042225C80C200749AA7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B041225C80C200749AA7 /* Person.m */; };
 		4921B045225C813F00749AA7 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B044225C813F00749AA7 /* Woman.m */; };
 		4921B04D225CC69A00749AA7 /* NSObject+Mykvo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B04C225CC69A00749AA7 /* NSObject+Mykvo.m */; };
+		498FEDCA234F332700B49CED /* ffffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498FEDC9234F332700B49CED /* ffffViewController.m */; };
+		498FEDCD234F340900B49CED /* dddaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498FEDCC234F340900B49CED /* dddaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		4921B044225C813F00749AA7 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 		4921B04B225CC69A00749AA7 /* NSObject+Mykvo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mykvo.h"; sourceTree = "<group>"; };
 		4921B04C225CC69A00749AA7 /* NSObject+Mykvo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mykvo.m"; sourceTree = "<group>"; };
+		498FEDC8234F332700B49CED /* ffffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffffViewController.h; sourceTree = "<group>"; };
+		498FEDC9234F332700B49CED /* ffffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ffffViewController.m; sourceTree = "<group>"; };
+		498FEDCB234F340900B49CED /* dddaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dddaViewController.h; sourceTree = "<group>"; };
+		498FEDCC234F340900B49CED /* dddaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dddaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 		4921AFFF225C80B200749AA7 = {
 			isa = PBXGroup;
 			children = (
+				498FEDC7234F331D00B49CED /* New Group */,
 				4921B04B225CC69A00749AA7 /* NSObject+Mykvo.h */,
 				4921B04C225CC69A00749AA7 /* NSObject+Mykvo.m */,
 				4921B00A225C80B200749AA7 /* KVO */,
@@ -148,6 +155,17 @@
 				4921B034225C80B400749AA7 /* Info.plist */,
 			);
 			path = KVOUITests;
+			sourceTree = "<group>";
+		};
+		498FEDC7234F331D00B49CED /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				498FEDC8234F332700B49CED /* ffffViewController.h */,
+				498FEDC9234F332700B49CED /* ffffViewController.m */,
+				498FEDCB234F340900B49CED /* dddaViewController.h */,
+				498FEDCC234F340900B49CED /* dddaViewController.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498FEDCD234F340900B49CED /* dddaViewController.m in Sources */,
 				4921B045225C813F00749AA7 /* Woman.m in Sources */,
 				4921B010225C80B200749AA7 /* ViewController.m in Sources */,
 				4921B016225C80B200749AA7 /* KVO.xcdatamodeld in Sources */,
 				4921B042225C80C200749AA7 /* Person.m in Sources */,
 				4921B04D225CC69A00749AA7 /* NSObject+Mykvo.m in Sources */,
 				4921B01E225C80B400749AA7 /* main.m in Sources */,
+				498FEDCA234F332700B49CED /* ffffViewController.m in Sources */,
 				4921B00D225C80B200749AA7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
