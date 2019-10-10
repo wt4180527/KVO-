@@ -22,6 +22,15 @@
     
      [super viewDidLoad];
     
+    NSLog(@"sdsfsdfeeeesdfs");
+    NSLog(@"sdsfsdfeeesdfs");
+    NSLog(@"sdsfsdfsdfdddes");
+    NSLog(@"sdsfsdfsdfs");
+    NSLog(@"sdsfsdfsdfs");
+    NSLog(@"sdsfsdfseeedfs");
+    NSLog(@"sdsfsdfsdfs");
+
+    
      person = [[Person alloc]init];
    
     
